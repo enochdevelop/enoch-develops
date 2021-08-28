@@ -2,7 +2,7 @@
   /* background: lightblue; */
   text-align: center;
   /* background-color:white; */
-   background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\mainbackground.jpg");
+   background-image: url("./assets/mainbackground.jpg");
   background-color: white;
   position: fixed;
   width: 100%;
@@ -86,7 +86,7 @@
   background-color:whitesmoke;
   /* background-color: rgba(233, 233, 170); */
   /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\boxbois.gif");
+  background-image: url("./assets/boxbois.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -138,7 +138,7 @@
   background-color:whitesmoke;
   /* background-color: rgba(233, 233, 170); */
   /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\introsnow.gif");
+  background-image: url("./assets/introsnow.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -159,7 +159,7 @@
   background-color:whitesmoke;
   /* background-color: rgba(233, 233, 170); */
   /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\spooks.gif");
+  background-image: url("./assets/spooks.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -181,7 +181,7 @@
   background-color:whitesmoke;
   /* background-color: rgba(233, 233, 170); */
   /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\artrip.gif");
+  background-image: url("./assets/artrip.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -203,7 +203,7 @@
   background-color:whitesmoke;
   /* background-color: rgba(233, 233, 170); */
   /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\coco1.gif");
+  background-image: url("./assets/coco1.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -225,7 +225,7 @@
   background-color:whitesmoke;
   /* background-color: rgba(233, 233, 170); */
   /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\newbball.gif");
+  background-image: url("./assets/newbball.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -247,7 +247,7 @@
   background-color:whitesmoke;
   /* background-color: rgba(233, 233, 170); */
   /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\stained1.gif");
+  background-image: url("./assets/stained1.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -269,7 +269,7 @@
   background-color:whitesmoke;
   /* background-color: rgba(233, 233, 170); */
   /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\boxbois.gif");
+  background-image: url("./assets/boxbois.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -291,7 +291,7 @@
   background-color:whitesmoke;
   /* background-color: rgba(233, 233, 170); */
   /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\IMG_1168.JPG");
+  background-image: url("./assets/IMG_1168.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -600,7 +600,7 @@
 }
 
 .snapchat {
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\icons\snapchatcircle.png");
+  background-image: url("./assets/icons/snapchatcircle.png");
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
@@ -610,7 +610,7 @@
 }
 
 .facebook {
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\icons\facebookcircle.png");
+  background-image: url("./assets/icons/facebookcircle.png");
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
@@ -619,7 +619,7 @@
   margin: 5%;
 }
 .linkedin {
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\icons\linkedincircle.png");
+  background-image: url("./assets/icons/linkedincircle.png");
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
@@ -628,7 +628,7 @@
   margin: 5%;
 }
 .instagram {
-  background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\icons\instagramcircle.png");
+  background-image: url("./assets/icons/instagramcircle.png");
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;

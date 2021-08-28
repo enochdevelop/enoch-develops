@@ -4,7 +4,7 @@
     background-color:whitesmoke;
     /* background-color: rgba(233, 233, 170); */
     /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-    background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\shoot1.gif");
+    background-image: url("./assets/shoot1.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +24,7 @@
     background-color:whitesmoke;
     /* background-color: rgba(233, 233, 170); */
     /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-    background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\shoot2.gif");
+    background-image: url("./assets/shoot2.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,7 +44,7 @@
     background-color:whitesmoke;
     /* background-color: rgba(233, 233, 170); */
     /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-    background-image: url("C:\Users\enoch\OneDrive\Desktop\backed\websiteimport\enochdevs\projectwebsite\src\assets\bball3.0.gif");
+    background-image: url("./assets/bball3.0.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
