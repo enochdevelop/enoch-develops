@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './BoxBois.css';
 import './bottleflip.css';
-// import './artrip.css';
+import './artrip.css';
 
 import HomeButtonLink from "./HomeButton";
 
@@ -43,7 +43,7 @@ function ARTripPage() {
                                     <p> When you're looking to travel </p>
                                     <p> but don't feel like leaving the house</p>
                                 </div>
-                                <div className="bowie_block_image">
+                                <div className="ArTrip_1">
                                 </div>
                             </div>
                             <div className="participants" >
