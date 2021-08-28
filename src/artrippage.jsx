@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './BoxBois.css';
 import './bottleflip.css';
-import './artrip.css';
+import './Artrip.css';
 
 import HomeButtonLink from "./HomeButton";
 
