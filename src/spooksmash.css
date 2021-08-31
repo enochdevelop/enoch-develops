@@ -9,10 +9,6 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: center;
     box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
     padding: 10px 0;
     margin: 60px 0;
@@ -29,10 +25,6 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: center;
     box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
     padding: 10px 0;
     margin: 60px 0;
@@ -49,10 +41,6 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: center;
     box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
     padding: 10px 0;
     margin: 60px 0;
@@ -69,10 +57,6 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: center;
     box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
     padding: 10px 0;
     margin: 60px 0;
@@ -89,10 +73,6 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: center;
     box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
     padding: 10px 0;
     margin: 60px 0;
@@ -109,10 +89,6 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: center;
     box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
     padding: 10px 0;
     margin: 60px 0;
@@ -129,12 +105,14 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: center;
     box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
     padding: 10px 0;
     margin: 60px 0;
   }
   
+  @media screen and (min-device-width: 260px) and (max-device-width: 600px){
+    .spook_introduction_image, .spook_page1_image, .spook_page2_image, .spook_page3_image, .spook_page4_image, .spook_page5_image, .spook_page6_image{
+      height: 350px;
+      width: 200px;
+    }
+  }

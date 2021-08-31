@@ -9,7 +9,6 @@ function MainPage() {
   return (
     <div className="app">
       <Header />
-
       <a className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" href="# "> </a>
 
       <Link to="/AboutMe" className="Link">

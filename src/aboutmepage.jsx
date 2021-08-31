@@ -13,9 +13,6 @@ function AboutMePage() {
     <div className="AboutMe-app">
       <HomeButtonLink />
       <div className="content_container2">
-        <div className="MyPic">
-
-        </div>
         <div >
           <p className="paragraph_descriptions_title"> HELLO, I'M ENOCH </p>
           <p className="paragraph_descriptions2"> I'm your friendly neighborhood Developer</p>
@@ -25,6 +22,9 @@ function AboutMePage() {
           <p className="paragraph_descriptions2"> to create fun, interactive, complex  </p>
           <p className="aboutme_paragraph_descriptions"> immersive experiences! </p>
  
+        </div>
+        <div className="MyPic">
+
         </div>
 
       </div>
