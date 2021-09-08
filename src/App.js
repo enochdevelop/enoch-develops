@@ -15,9 +15,9 @@ import BottleFlipPage from "./bottleflippage";
 import HotCoCoMoPage from "./hotcocomo";
 import ShootYourShotPage from "./shotyourshotpage";
 import UnwrappedPage from "./Unwrapped";
-import StainedGlass from "./stainedglass";
 import AboutMePage from "./aboutmepage";
 import ARTripPage from "./artrippage";
+import ARUiPage from "./aruipage";
 
 
 
@@ -34,8 +34,8 @@ function App () {
         <Route exact path="/HotCoCoMo" component={HotCoCoMoPage} />
         <Route exact path="/ShootYourShot" component={ShootYourShotPage} />
         <Route exact path="/Unwrapped" component={UnwrappedPage} />
-        <Route exact path="/StainedGlass" component={StainedGlass} />
         <Route exact path="/ARTrip" component={ARTripPage} />
+        <Route exact path="/ARUi" component={ARUiPage} />
         <Route exact path="/AboutMe" component={AboutMePage} />
         <Redirect to="/404"/>
       </Switch>

@@ -20,6 +20,11 @@ function MainPage() {
         <div className="background">
           <div className="spacer">
 
+          <Link to="/ARUi" className="link">
+              <div className="ar_ui" >
+                <h3 className="text2">AR Ui</h3>
+              </div>
+            </Link>
           <Link to="/ARTrip" className="link">
               <div className="bottle_flips" >
                 <h3 className="text2">AR Trip</h3>
@@ -43,11 +48,6 @@ function MainPage() {
             <Link to="/HotCoCoMo" className="link">
               <div className="hot_coco">
                 <h3 className="text">Hot Coco Mo</h3>
-              </div>
-            </Link>
-            <Link to="/StainedGlass" className="link">
-              <div className="stained_glass" >
-                <h3 className="text2">Image Scan</h3>
               </div>
             </Link>
             <Link to="/ShootYourShot" className="link">
