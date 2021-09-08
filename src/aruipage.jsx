@@ -43,7 +43,7 @@ function ARUiPage() {
                 itemClass="carousel-item-padding-40-px">
                 <div className="content_container" >
                     <div className="paragraph_descriptions">
-                        <p> Mom look I can </p>
+                        <p> Mom, Dad, look I can </p>
                         <p> finally play with holograms! </p>
                     </div>
                     <div className="ArUi_1">
