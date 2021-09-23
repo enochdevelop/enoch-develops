@@ -52,7 +52,7 @@ function ARUiPage() {
                 </div>
                 <div className="content_container" >
                     <div className="paragraph_descriptions">
-                        <p> Added Functionality Scaling: </p>
+                        <p> Added Functionality: </p>
                         <p> Scaling: </p>
                     </div>
                     <div className="ArUi_2">
