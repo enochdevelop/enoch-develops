@@ -44,11 +44,21 @@ function ARUiPage() {
                 <div className="content_container" >
                     <div className="paragraph_descriptions">
                         <p> Mom, Dad, look I can </p>
-                        <p> finally play with holograms! </p>
+                        <p> finally play with holograms Ui</p>
+                        <p> projected through a phone! </p>
                     </div>
                     <div className="ArUi_1">
                     </div>
                 </div>
+                <div className="content_container" >
+                    <div className="paragraph_descriptions">
+                        <p> Added Scaling: </p>
+
+                    </div>
+                    <div className="ArUi_2">
+                    </div>
+                </div>
+
             </Carousel>
         </div>
     );
