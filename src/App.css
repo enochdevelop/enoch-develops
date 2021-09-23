@@ -55,7 +55,7 @@
   background: transparent; /* make scrollbar transparent */
 }
 
-.bottle_flips:hover, .hot_coco:hover, .spook_smash:hover, .box_bois:hover, .b_ball:hover, .unwrapped_bois:hover, .stained_glass:hover{
+.bottle_flips:hover, .hot_coco:hover, .spook_smash:hover, .box_bois:hover, .b_ball:hover, .unwrapped_bois:hover, .stained_glass:hover, .ar_ui:hover{
   background-color: rgb(83, 82, 82);
   opacity: .9;
   transform: scale(1.1);
@@ -740,7 +740,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 
 @media screen and (min-device-width: 260px) and (max-device-width: 600px){
-   .bottle_flips, .unwrapped_bois, .spook_smash, .box_bois, .bottle_flips, .hot_coco, .b_ball, .stained_glass, .boxes{
+   .bottle_flips, .unwrapped_bois, .spook_smash, .box_bois, .bottle_flips, .hot_coco, .b_ball, .stained_glass, .boxes, .ar_ui{
     height: 300px;
     width: 175px;
   }
