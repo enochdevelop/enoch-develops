@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import Header from "./Header";
 import { Link } from "react-router-dom";
-import MetaTags from 'react-meta-tags';
+import MetaTags from "react-meta-tags";
 
 
 function MainPage() {
