@@ -2,12 +2,18 @@ import React from "react";
 import './App.css';
 import Header from "./Header";
 import { Link } from "react-router-dom";
+import MetaTags from 'react-meta-tags';
 
 
 function MainPage() {
 
   return (
     <div className="app">
+      <MetaTags>
+            <meta id="meta-description" name="description" content="developer finding his way through tech" />
+            <meta id="og-title" property="og:title" content="enochdevelops" />
+            <meta id="og-image" property="og:image" content="./assets/mainbackground.jpg" />
+          </MetaTags>
       <Header />
       <a className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" href="# "> </a>
 
