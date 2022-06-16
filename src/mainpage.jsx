@@ -21,8 +21,11 @@ function MainPage() {
         <div className="background">
           <div className="spacer">
 
-          <Link to="/ARUi" className="link">
+            <Link to="/ARUi" className="link">
               <div className="ar_ui" >
+                <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                  <source src="assets\ar_intro_ui.gif" type="video/gif"></source>
+                </video>   
                 <h3 className="text2">AR Ui</h3>
               </div>
             </Link>
