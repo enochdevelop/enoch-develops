@@ -18,6 +18,7 @@ import UnwrappedPage from "./Unwrapped";
 import AboutMePage from "./aboutmepage";
 import ARTripPage from "./artrippage";
 import ARUiPage from "./aruipage";
+import ArProjects from "./arprojects";
 
 
 
@@ -37,6 +38,7 @@ function App () {
         <Route exact path="/ARTrip" component={ARTripPage} />
         <Route exact path="/ARUi" component={ARUiPage} />
         <Route exact path="/AboutMe" component={AboutMePage} />
+        <Route exact path="/ArProjects" component={ArProjects} />
         <Redirect to="/404"/>
       </Switch>
     </Router>

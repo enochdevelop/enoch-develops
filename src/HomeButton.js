@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 function HomeButtonLink() {
     return(
-            <div className="button_div_link">
+            <div className="ProjectType">
                 <Link to="/" className="button_link">
-                    <p>Home</p>
+                    <p className='AboutMeParagragh'>Home</p>
                 </Link>
             </div>
     )

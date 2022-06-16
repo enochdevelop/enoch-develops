@@ -17,59 +17,12 @@ function MainPage() {
           <p className="AboutMeParagragh">About Me</p>
         </div>
       </Link>
-      <div className="container">
-        <div className="background">
-          <div className="spacer">
 
-            <Link to="/ARUi" className="link">
-              <div className="ar_ui" >
-                <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
-                  <source src="assets\ar_intro_ui.gif" type="video/gif"></source>
-                </video>   
-                <h3 className="text2">AR Ui</h3>
-              </div>
-            </Link>
-          <Link to="/ARTrip" className="link">
-              <div className="bottle_flips" >
-                <h3 className="text2">AR Trip</h3>
-              </div>
-            </Link>
-            <Link to="/Unwrapped" className="link">
-              <div className="unwrapped_bois">
-                <h3 className="text2">BoxBois Unwrapped</h3>
-              </div>
-            </Link>
-            <Link to="/SpookSmash" className="link">
-              <div className="spook_smash">
-                <h3 className="text">SpookSmash</h3>
-              </div>
-            </Link>
-            <Link to="/BoxBois" className="link">
-              <div className="box_bois">
-                <h3 className="text2">BoxBois</h3>
-              </div>
-            </Link>
-            <Link to="/HotCoCoMo" className="link">
-              <div className="hot_coco">
-                <h3 className="text">Hot Coco Mo</h3>
-              </div>
-            </Link>
-            <Link to="/ShootYourShot" className="link">
-              <div className="b_ball" >
-                <h3 className="text2">Shoot Your Shot</h3>
-              </div>
-            </Link>
-
-            {/* <div className="files">
-                <h3 className="text">name</h3>
-            </div> */}
-          </div>
-
-          <div className="MoreLenses">
-            <a href="https://lensstudio.snapchat.com/creator/d6TqmX7QKsLE-FU_u9UXwQ"> More..</a>
-          </div>
+      <Link to="/ArProjects" className="Link">
+        <div className="ProjectType">
+          <p className="AboutMeParagragh">AR Projects</p>
         </div>
-      </div>
+      </Link>
 
       <div className="content_container3">
         <div className="icons">
