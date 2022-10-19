@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./Header";
 import { Link } from "react-router-dom";
 import backgroundVideo from "./assets/Drawing20.mp4"
+import {Helmet} from "react-helmet";
 
 
 
@@ -11,6 +12,12 @@ function MainPage() {
   return (
     
     <div className="app">
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>EnochDevelops</title>
+                <link rel="canonical" href="https://enochdevelops.com/" />
+                <meta name="description" content="EnochDevelops" />
+            </Helmet>
       <video autoPlay loop muted id="video">
         <source src ={backgroundVideo} type="video/mp4"/>
       </video>
