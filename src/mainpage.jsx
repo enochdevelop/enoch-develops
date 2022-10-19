@@ -2,13 +2,18 @@ import React from "react";
 import './App.css';
 import Header from "./Header";
 import { Link } from "react-router-dom";
+import backgroundVideo from "./assets/Drawing20.mp4"
 
 
 
 function MainPage() {
 
   return (
+    
     <div className="app">
+      <video autoPlay loop muted id="video">
+        <source src ={backgroundVideo} type="video/mp4"/>
+      </video>
       <Header />
       <a className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" href="# "> </a>
 
@@ -20,7 +25,7 @@ function MainPage() {
 
       <Link to="/ArProjects" className="Link">
         <div className="ProjectType">
-          <p className="AboutMeParagragh">AR Projects</p>
+          <p className="AboutMeParagragh">Work</p>
         </div>
       </Link>
 
