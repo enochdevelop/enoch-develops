@@ -13,7 +13,7 @@
 }
 
 @font-face {
-  font-family: ""Parisian"" !important; 
+  font-family: "Parisian"; 
   src: url(./assets/Parisian.ttf) format("truetype");
   src: url(./assets/Parisian.eot);
   src: url(./assets/Parisian.woff) format("woff"),
@@ -497,7 +497,8 @@
   text-align: center;
   font-size: 80px;
   letter-spacing: 0.1em;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: bold;
   color:#424f35;
   /* color: black; */
 
@@ -511,7 +512,8 @@
   text-align: center;
   font-size: 80px;
   letter-spacing: 0.1em;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: bold;
   color:#424f35;
   /* color: black; */
 
@@ -523,7 +525,8 @@
   text-align: center;
   margin-top: 2%;
   letter-spacing: 0.3em;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: bolder;
   text-decoration: underline;
   text-decoration-color: black;
 
@@ -533,7 +536,8 @@
   font-size: 24px;
   text-align: top;
   letter-spacing: 0.2em;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: lighter;
   text-decoration: underline;
   text-decoration-color: black;
   /* color:#79876F; */
@@ -547,7 +551,8 @@
   text-align: top;
   line-height: 50px;
   letter-spacing: 0.2em;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: lighter;
   color:black;
   background-color: darkgoldenrod;
   padding: 25px;
@@ -559,7 +564,8 @@
   font-size: 35px;
   line-height: 30px;
   letter-spacing: 0.2em;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: lighter;
   color:black;
   background-color: #768770;
   padding: 15px;
@@ -571,7 +577,8 @@
   font-size: 35px;
   line-height: 30px;
   letter-spacing: 0.2em;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: lighter;
   color:black;
   background-color: #136d70;
   padding: 15px;
@@ -583,7 +590,8 @@
   font-size: 50px;
   line-height: 60px;
   letter-spacing: 0.2em;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: lighter;
   color:darkgoldenrod;
   padding: 15px;
   margin: 2%;
@@ -596,7 +604,8 @@
   text-align: center;
   margin-top: 13%;
   letter-spacing: 0.3em;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: lighter;
   color:black;
   
 }
@@ -606,7 +615,8 @@
   position: relative;
   top: 150px;
   font-size: 700%;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: bolder;
   letter-spacing: 0.2em;
   color: black;
   text-decoration: underline;
@@ -616,7 +626,8 @@
   display: none;
   position: relative;
   top: 225px;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: lighter;
   letter-spacing: 0.2em;
   background-color: white;
   color:#79876F;
@@ -626,7 +637,8 @@
   display: none;
   position: relative;
   top: 225px;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: lighter;
   letter-spacing: 0.2em;
   color: black;
 }
@@ -693,7 +705,7 @@
 
 
 .AboutMeParagragh {
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
   text-align: center;
   letter-spacing: 0.1em;
   margin-left: auto;
@@ -782,7 +794,8 @@
 .button_link {
   font-size: 25px;
   letter-spacing: 0.1em;
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
+  font-weight: lighter;
   text-decoration: none;
   text-align: left;
   right: 100px;
@@ -801,7 +814,7 @@
 }
 
 .MoreLenses {
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
   font-size: 20px;
   margin: 5%;
   width: 200px;
@@ -832,7 +845,7 @@ a{
 }
 
 .Email_Design {
-  font-family: "Parisian";
+  font-family: "Parisian" !important;
   font-size: 40px;
   margin-right:15% ;
   /* line-height: 130px;
