@@ -12,6 +12,10 @@
   overflow-y: auto;
 }
 
+@font-face {
+  font-family: "Parisian" !important; 
+  src: url(./assets/Parisian.ttf);
+}
 #video {
   object-fit: cover;
   position: fixed;
@@ -488,7 +492,7 @@
   text-align: center;
   font-size: 80px;
   letter-spacing: 0.1em;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: bold;
   color:#424f35;
   /* color: black; */
@@ -503,7 +507,7 @@
   text-align: center;
   font-size: 80px;
   letter-spacing: 0.1em;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: bold;
   color:#424f35;
   /* color: black; */
@@ -516,7 +520,7 @@
   text-align: center;
   margin-top: 2%;
   letter-spacing: 0.3em;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: bolder;
   text-decoration: underline;
   text-decoration-color: black;
@@ -527,7 +531,7 @@
   font-size: 24px;
   text-align: top;
   letter-spacing: 0.2em;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: lighter;
   text-decoration: underline;
   text-decoration-color: black;
@@ -542,7 +546,7 @@
   text-align: top;
   line-height: 50px;
   letter-spacing: 0.2em;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: lighter;
   color:black;
   background-color: darkgoldenrod;
@@ -555,7 +559,7 @@
   font-size: 35px;
   line-height: 30px;
   letter-spacing: 0.2em;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: lighter;
   color:black;
   background-color: #768770;
@@ -568,7 +572,7 @@
   font-size: 35px;
   line-height: 30px;
   letter-spacing: 0.2em;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: lighter;
   color:black;
   background-color: #136d70;
@@ -581,7 +585,7 @@
   font-size: 50px;
   line-height: 60px;
   letter-spacing: 0.2em;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: lighter;
   color:darkgoldenrod;
   padding: 15px;
@@ -595,7 +599,7 @@
   text-align: center;
   margin-top: 13%;
   letter-spacing: 0.3em;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: lighter;
   color:black;
   
@@ -606,7 +610,7 @@
   position: relative;
   top: 150px;
   font-size: 700%;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: bolder;
   letter-spacing: 0.2em;
   color: black;
@@ -617,7 +621,7 @@
   display: none;
   position: relative;
   top: 225px;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: lighter;
   letter-spacing: 0.2em;
   background-color: white;
@@ -628,7 +632,7 @@
   display: none;
   position: relative;
   top: 225px;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: lighter;
   letter-spacing: 0.2em;
   color: black;
@@ -696,7 +700,7 @@
 
 
 .AboutMeParagragh {
-  font-family: parisian;
+  font-family: Parisian;
   text-align: center;
   letter-spacing: 0.1em;
   margin-left: auto;
@@ -785,7 +789,7 @@
 .button_link {
   font-size: 25px;
   letter-spacing: 0.1em;
-  font-family: parisian;
+  font-family: Parisian;
   font-weight: lighter;
   text-decoration: none;
   text-align: left;
@@ -805,7 +809,7 @@
 }
 
 .MoreLenses {
-  font-family: parisian;
+  font-family: Parisian;
   font-size: 20px;
   margin: 5%;
   width: 200px;
@@ -836,7 +840,7 @@ a{
 }
 
 .Email_Design {
-  font-family: parisian;
+  font-family: Parisian;
   font-size: 40px;
   margin-right:15% ;
   /* line-height: 130px;
