@@ -14,8 +14,13 @@
 
 @font-face {
   font-family: "Parisian" !important; 
-  src: url(./assets/Parisian.ttf);
+  src: url(./assets/Parisian.ttf) format("truetype");
+  src: url(./assets/Parisian.eot);
+  src: url(./assets/Parisian.woff) format("woff"),
+  url(./assets/Parisian.woff2) format("woff2"),
+  url(./assets/Parisian.svg#filename) format("svg");
 }
+
 #video {
   object-fit: cover;
   position: fixed;
