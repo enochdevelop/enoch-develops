@@ -18,9 +18,13 @@ function MainPage() {
                 <link rel="canonical" href="https://enochdevelops.com/" />
                 <meta name="description" content="EnochDevelops" />
             </Helmet>
-      <video autoPlay loop muted id="video">
-        <source src ={backgroundVideo} type="video/mp4"/>
-      </video>
+            <div
+            dangerouslySetInnerHTML={{
+            __html: `<video id="video" autoplay loop muted playsinline>
+            <source src =${backgroundVideo} type="video/mp4"/> </video>`,
+          }}
+          />
+     
       <Header />
       <a className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" href="# "> </a>
 
