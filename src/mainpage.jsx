@@ -18,7 +18,9 @@ function MainPage() {
         <link rel="canonical" href="https://enochdevelops.com/" />
         <meta name="description" content="EnochDevelops" />
       </Helmet>
-      <video id="video"src={backgroundVideo} autoPlay loop muted playsInline></video>
+      <video id="video"src={backgroundVideo} autoPlay loop muted playsInline >
+      Your browser does not support the video tag.
+      </video>
       <Header />
       <a className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" href="# "> </a>
 
