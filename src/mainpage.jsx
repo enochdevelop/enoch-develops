@@ -3,28 +3,22 @@ import './App.css';
 import Header from "./Header";
 import { Link } from "react-router-dom";
 import backgroundVideo from "./assets/Drawing20.mp4"
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 
 
 function MainPage() {
 
   return (
-    
+
     <div className="app">
       <Helmet>
-                <meta charSet="utf-8" />
-                <title>EnochDevelops</title>
-                <link rel="canonical" href="https://enochdevelops.com/" />
-                <meta name="description" content="EnochDevelops" />
-            </Helmet>
-            <div
-            dangerouslySetInnerHTML={{
-            __html: `<video id="video" autoplay loop muted playsinline>
-            <source src =${backgroundVideo} type="video/mp4"/> </video>`,
-          }}
-          />
-     
+        <meta charSet="utf-8" />
+        <title>EnochDevelops</title>
+        <link rel="canonical" href="https://enochdevelops.com/" />
+        <meta name="description" content="EnochDevelops" />
+      </Helmet>
+      <video id="video"src={backgroundVideo} autoPlay loop muted playsInline></video>
       <Header />
       <a className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" href="# "> </a>
 
