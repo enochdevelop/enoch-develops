@@ -498,7 +498,6 @@
   font-size: 80px;
   letter-spacing: 0.1em;
   font-family: "Parisian";
-  font-weight: bold;
   color:#424f35;
   /* color: black; */
 
@@ -513,7 +512,6 @@
   font-size: 80px;
   letter-spacing: 0.1em;
   font-family: "Parisian";
-  font-weight: bold;
   color:#424f35;
   /* color: black; */
 
@@ -526,7 +524,6 @@
   margin-top: 2%;
   letter-spacing: 0.3em;
   font-family: "Parisian";
-  font-weight: bolder;
   text-decoration: underline;
   text-decoration-color: black;
 
@@ -537,7 +534,6 @@
   text-align: top;
   letter-spacing: 0.2em;
   font-family: "Parisian";
-  font-weight: lighter;
   text-decoration: underline;
   text-decoration-color: black;
   /* color:#79876F; */
@@ -552,7 +548,6 @@
   line-height: 50px;
   letter-spacing: 0.2em;
   font-family: "Parisian";
-  font-weight: lighter;
   color:black;
   background-color: darkgoldenrod;
   padding: 25px;
@@ -565,7 +560,6 @@
   line-height: 30px;
   letter-spacing: 0.2em;
   font-family: "Parisian";
-  font-weight: lighter;
   color:black;
   background-color: #768770;
   padding: 15px;
@@ -578,7 +572,6 @@
   line-height: 30px;
   letter-spacing: 0.2em;
   font-family: "Parisian";
-  font-weight: lighter;
   color:black;
   background-color: #136d70;
   padding: 15px;
@@ -591,7 +584,6 @@
   line-height: 60px;
   letter-spacing: 0.2em;
   font-family: "Parisian";
-  font-weight: lighter;
   color:darkgoldenrod;
   padding: 15px;
   margin: 2%;
@@ -605,7 +597,6 @@
   margin-top: 13%;
   letter-spacing: 0.3em;
   font-family: "Parisian";
-  font-weight: lighter;
   color:black;
   
 }
@@ -616,7 +607,6 @@
   top: 150px;
   font-size: 700%;
   font-family: "Parisian";
-  font-weight: bolder;
   letter-spacing: 0.2em;
   color: black;
   text-decoration: underline;
@@ -627,7 +617,6 @@
   position: relative;
   top: 225px;
   font-family: "Parisian";
-  font-weight: lighter;
   letter-spacing: 0.2em;
   background-color: white;
   color:#79876F;
@@ -638,7 +627,6 @@
   position: relative;
   top: 225px;
   font-family: "Parisian";
-  font-weight: lighter;
   letter-spacing: 0.2em;
   color: black;
 }
@@ -795,7 +783,6 @@
   font-size: 25px;
   letter-spacing: 0.1em;
   font-family: "Parisian";
-  font-weight: lighter;
   text-decoration: none;
   text-align: left;
   right: 100px;
