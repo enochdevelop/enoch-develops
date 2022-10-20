@@ -18,7 +18,8 @@ function MainPage() {
         <link rel="canonical" href="https://enochdevelops.com/" />
         <meta name="description" content="EnochDevelops" />
       </Helmet>
-      <video id="video"src={backgroundVideo} autoPlay loop muted playsInline >
+      <video id="video" autoPlay loop muted playsInline >
+        <source src={backgroundVideo} type="video/mp4"/>
       Your browser does not support the video tag.
       </video>
       <Header />
