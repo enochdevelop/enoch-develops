@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import './BoxBois.css';
-import './bottleflip.css';
 import './artrip.css';
 
 import HomeButtonLink from "./HomeButton";
@@ -28,7 +27,7 @@ function ARTripPage() {
         }
     };
     return (
-        <div className="app-sub">
+        <div className="app_sub">
             <HomeButtonLink />
             <div className="header_container">
                 <div className="pages_header">

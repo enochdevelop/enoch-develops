@@ -3,7 +3,7 @@ import './App.css';
 
 function Header() {
     return(
-        <div className="header">
+        <div className="page_header_spacer">
             {/* <p>The Book of Enoch</p>
                 <div className="paragraph">
                     <p>Hi, im Enoch</p>

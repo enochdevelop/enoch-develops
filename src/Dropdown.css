@@ -1,0 +1,207 @@
+:root {
+  --primary-bg: #242526;
+  --secondary-bg: #fff;
+  --primary-text-color: #555;
+  --secondary-text-color: #cecece;
+  --border-radius: 8px;
+  --speed: 500ms;
+}
+
+.menu_trigger {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 10;
+    margin: 10px 10px;
+    cursor: pointer;
+    background:darkgoldenrod;
+    opacity: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+    
+  }
+
+  .menu_trigger:hover {
+    opacity: .6;
+    transform: scale(1.1); 
+    cursor: default;
+  }
+
+  .logo_icon figure img{
+    max-width: 60%;
+    max-height: 60%;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .dropdown_menu{
+    position: fixed;
+    top: 165px;
+    left: 45px;
+    z-index: 10;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    width: 200px;
+  }
+  
+  .dropdown_menu::before{
+    content: '';
+    position: fixed;
+    top: -5px;
+    left: 35px;
+    height: 20px;
+    width: 20px;
+    background-color: darkgoldenrod;
+    background: var(--secondary-bg);
+    transform: rotate(45deg);
+
+  }
+  
+  .dropdown_menu.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(--speed) ease;
+  }
+  
+  .dropdown_menu.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(--speed) ease;
+  }
+  
+  
+  h3{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--primary-text-color);
+    line-height: 1.2rem;
+  }
+  
+  h3 span{
+    font-size: 14px;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+  }
+  
+  .dropdown_menu ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  .dropdown_menu ul li:hover a{
+    color: rgb(212, 33, 9);
+    cursor: pointer;
+  }
+  
+  .dropdown_menu ul li:hover img{
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .dropdown_item{
+    display: flex;
+    margin: 10px 30px;
+  }
+  
+  .dropdown_item img{
+    max-width: 20px;
+    margin-right: 10px;
+    opacity: 0.5;
+    transition: var(--speed);
+  }
+  
+  .dropdown_item a{
+    max-width: 100px;
+    margin-left: 10px;
+    transition: var(--speed);
+  }
+
+  .input_section{
+    justify-content: center;
+    align-items: center;
+    margin-top: 45%;
+  }
+
+  input[type="checkbox"]{
+    display: none;
+  }
+
+  .bar{
+    position:relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bar .middle{
+    top: 40px;
+    height: 4px;
+    width: 40px;
+    background: rgb(0, 0, 0);
+    border-radius:  30px;
+    position: absolute;
+    transition: 0.3s ease;
+  }
+
+  .bar .top{
+    top: 25px;
+    height: 4px;
+    width: 40px;
+    background: rgb(0, 0, 0);
+    border-radius:  30px;
+    position: absolute;
+    transition: 0.3s ease;
+  }
+
+  .bar .bottom{
+    top: 55px;
+    height: 4px;
+    width: 40px;
+    background: rgb(0, 0, 0);
+    border-radius:  30px;
+    position: absolute;
+    transition: 0.3s ease;
+  }
+  
+  .menu_text{
+    width: 100%;
+    margin: 24px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+    color: black;
+    line-height: 1.2rem;
+  }
+
+  @keyframes bounce-7 {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-60px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+  }
+
+
+/*
+  input[type="checkbox"]:checked ~.bar .top {
+      transform: rotate(-45deg);
+      width: 70px;
+  } */
+
+  .link_decoration{ color: black;}
+  .link_decoration:link { text-decoration: none; }
+  .link_decoration:visited { text-decoration: none; }
+  .link_decoration:hover { text-decoration: none; } 
+  .link_decoration:active { text-decoration: none; }

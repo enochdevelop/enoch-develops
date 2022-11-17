@@ -5,7 +5,6 @@
     background-color:whitesmoke;
     /* background-color: rgba(233, 233, 170); */
     /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-    background-image: url("./assets/newmenu.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,7 +20,6 @@
     background-color:whitesmoke;
     /* background-color: rgba(233, 233, 170); */
     /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-    background-image: url("./assets/cannon-shot-rework.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,9 +33,6 @@
     height: 700px;
     width: 400px;
     background-color:whitesmoke;
-    /* background-color: rgba(233, 233, 170); */
-    /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-    background-image: url("./assets/withnomesh.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -47,29 +42,13 @@
     margin: 60px 0;
   }
   
-.bowie_avoid_image{
-    height: 700px;
-    width: 400px;
-    background-color:whitesmoke;
-    /* background-color: rgba(233, 233, 170); */
-    /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-    background-image: url("./assets/avoid1.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 20px;
-    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
-    padding: 10px 0;
-    margin: 60px 0;
-  }
-  
+
 .bowie_block_image{
     height: 700px;
     width: 400px;
     background-color:whitesmoke;
     /* background-color: rgba(233, 233, 170); */
     /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-    background-image: url("./assets/block1.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +64,6 @@
     background-color:whitesmoke;
     /* background-color: rgba(233, 233, 170); */
     /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-    background-image: url("./assets/avoid2.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -101,7 +79,6 @@
     background-color:whitesmoke;
     /* background-color: rgba(233, 233, 170); */
     /* background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%); */
-    background-image: url("./assets/dancing1.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

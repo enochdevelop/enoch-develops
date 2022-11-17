@@ -1,0 +1,114 @@
+.email_design_container {
+    width: 100%;
+    max-height: 900px;
+  }
+  
+  .email_design_container p {
+    font-family: "Parisian" ;
+    font-size: 40px;
+    color: darkgoldenrod;
+  }
+
+  .email_design_container form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .email_design_container input {
+      width: 30%;
+      height: 45px;
+      outline: none;
+      border: 1px solid rgb(220, 220, 220);
+  }
+
+  .email_design_container textarea {
+    max-width: 30%;
+    min-width: 30%;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    outline: none;
+    border: 1px solid rgb(220, 220, 220);
+  }
+
+  .email_design_container label {
+    margin-top: 1rem;
+    
+  }
+
+  .email_design_container input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: darkgoldenrod;
+    color: white;
+    border: none;
+  }
+
+  .content_header{
+    width: 100%;
+  }
+
+  .content_header-text{
+    font-family: "Parisian" ;
+    font-size: 60px;
+    color: darkgoldenrod;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,.7));
+
+  }
+
+  .content_messsage {
+      font-family: "Parisian" ;
+      font-size: 40px;
+      color: black;
+      filter: drop-shadow(5px 5px 10px rgba(0,0,0,.7));
+  }
+
+  .contact_container{
+    max-width: 100%;
+    max-height: 1000px;
+    background-color: rgb(53, 52, 51, .7);
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.4);
+  }
+
+  .name_text{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.4);
+  }
+
+   .email_text {
+    margin: 20px 0px;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.4);
+  }
+  
+  .message_text{
+    margin: 20px 0px;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.4);
+  }
+
+  .submit_text{
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.4);
+
+  }
+  
+  .icon_content{
+    width: 100%;
+    height: 10%;
+  }
+
+  @media screen and (min-device-width: 40px) and (max-device-width: 800px){
+
+      .email_design_container input {
+        width: 90%;
+      }
+    
+      .email_design_container textarea {
+        max-width: 90%;  
+      }
+    
+  }

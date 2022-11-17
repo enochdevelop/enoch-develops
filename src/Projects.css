@@ -1,0 +1,125 @@
+
+/** blog_main section **/
+.blog_main {margin-top: 85px;}
+.blog_main .span {font-size: 17px; line-height: 20px; color: #2d2d2d;}
+.our_two_box {box-shadow: rgb(102, 101, 101) 0px 0px 10px 0px; margin-bottom: 90px; background-color: #ffffff91;}
+.our_text_box {padding: 1px 30px 1px 1px; } 
+.our_img figure {margin: 0; }
+.our_img figure img {width: 100%;}
+.awesome {padding-bottom:40px; font-size: 30px; font-weight:bold; line-height: 38px; color:#333334; text-align: left;} 
+.our_text_box p {padding-bottom: 50px; color: #000000; display: inline-block; } 
+.flot_left1 {float: left; padding: 0; font-weight: lighter; font-size: 15px; padding-top: 5%;} 
+ul.like {float: right;}
+ul.like li {display: inline-block; }
+ul.like li a {display: inline-block; color: #3c3c3c;}
+ul.like li img {padding: 0px 10px 0px 40px; }
+
+/** secend section **/
+
+.position_box {position: absolute; bottom: 0; padding: 0px 20px 20px 20px; }
+.withi_color {color: #fff;}
+.position_box p {color: #fff;} 
+ul.withi_color li a {color: #fff;}
+ul.withi_color {float: left; padding-left: 40px;}
+
+/** end secend section **/
+
+
+
+/** end three section **/
+.padding_flot {
+     padding-bottom:0; 
+     display: inline-block; 
+     float: left;
+     font-size: 20px;
+     padding-right: 14px;
+}
+.three_box {padding: 20px 20px; box-shadow: #ddd 0px 0px 10px 0px;}
+.three_box p {padding-bottom: 0; padding-top: 15px;}
+ul.padding_left2 li img {padding: 0px 10px 0px 30px;}
+
+
+
+/** end three section **/
+
+
+/** end for section **/
+
+.magna_top90 {margin-top: 90px;}
+
+/** end for section **/
+
+
+/** end blog_main section **/
+
+.project_font{
+     font-size: 20px;
+     text-align: left;
+}
+
+.banner_main {
+     padding: 90px 0 190px 0;
+}
+
+.text-bg {
+     text-align: left;
+}
+
+.text-bg h1 {
+     color: #02fee5;
+     font-size: 75px;
+     line-height: 110px;
+     font-weight: bold;
+}
+
+.text-bg p {
+     color: #fff;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 40px 0;
+}
+
+.text-bg a {
+     font-size: 17px;
+     background-color: #fff;
+     color: #000;
+     padding: 13px 0px;
+     width: 100%;
+     max-width: 190px;
+     text-align: center;
+     display: inline-block;
+     transition: ease-in all 0.5s;
+}
+
+.text-bg a:hover {
+     background-color: #02fee5;
+     color: #000;
+     transition: ease-in all 0.5s;
+     border-radius: 26px;
+}
+
+.text-img {
+     text-align: left;
+}
+
+
+.head_top {
+     background: url("./assets/ProjectImagesHuge/holographicuihuge.png");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.img_content{
+     transition: all .2s ease-in-out;
+   }
+   
+   .img_content:hover, .project:hover{
+     opacity: .9;
+     transform: scale(1.05);
+}
+      
+.device_image{
+     max-width: 100%;
+     max-height: 100%;
+}
