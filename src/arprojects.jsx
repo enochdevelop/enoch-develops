@@ -2,6 +2,7 @@ import React from "react";
 import './Projects.css';
 import './App.css';
 import './bootstrap.min.css';
+import './popup.css';
 import AnimatedPage from "./AnimatedPage";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Link } from "react-router-dom";
@@ -38,7 +39,7 @@ function ArProjects() {
                 </div>
 
 
-                <div className="blog_main" >
+                <div className="blog_main" style={{animation: 'slide .3s linear'}}>
                     <div className="container">
                         <div className="row" >
                             <div className="col-md-12" >
@@ -68,7 +69,7 @@ function ArProjects() {
                     </div>
                 </div>
 
-                <div className="blog_main">
+                <div className="blog_main" style={{animation: 'slide .3s linear'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
@@ -98,7 +99,7 @@ function ArProjects() {
                     </div>
                 </div>
 
-                <div className="blog_main">
+                <div className="blog_main" style={{animation: 'slide .3s linear'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
@@ -128,7 +129,7 @@ function ArProjects() {
                     </div>
                 </div>
 
-                <div className="blog_main">
+                <div className="blog_main" style={{animation: 'slide .3s linear'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
@@ -158,7 +159,7 @@ function ArProjects() {
                     </div>
                 </div>
 
-                <div className="blog_main">
+                <div className="blog_main" style={{animation: 'slide .3s linear'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
@@ -188,7 +189,7 @@ function ArProjects() {
                     </div>
                 </div>
 
-                <div className="blog_main">
+                <div className="blog_main" style={{animation: 'slide .3s linear'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
@@ -218,7 +219,7 @@ function ArProjects() {
                     </div>
                 </div>
 
-                <div className="blog_main">
+                <div className="blog_main" style={{animation: 'slide .3s linear'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
@@ -248,7 +249,7 @@ function ArProjects() {
                     </div>
                 </div>
 
-                <div className="blog_main">
+                <div className="blog_main" style={{animation: 'slide .3s linear'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
@@ -278,7 +279,7 @@ function ArProjects() {
                     </div>
                 </div>
 
-                <div className="blog_main">
+                <div className="blog_main" style={{animation: 'slide .3s linear'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">

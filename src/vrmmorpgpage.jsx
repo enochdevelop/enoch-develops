@@ -3,7 +3,8 @@ import './Projects.css';
 import './App.css';
 import './Projectinformation.css';
 import './bootstrap.min.css';
-import './fixedheader.css'
+import './fixedheader.css';
+import './popup.css';
 import ArrowShot from "./assets/Pngs/arrow_shot.mp4";
 import ArrowBarrage from "./assets/Pngs/arrow_barrage.mp4";
 import Weapons from "./assets/Pngs/weapons.mp4";

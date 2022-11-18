@@ -3,7 +3,8 @@ import './Projects.css';
 import './App.css';
 import './Projectinformation.css';
 import './bootstrap.min.css';
-import './fixedheader.css'
+import './fixedheader.css';
+import './popup.css';
 import hologramTrailImage from "./assets/Pngs/ar_ui_vid_scale.mp4";
 import hologramTrailStartImage from "./assets/Pngs/ar_ui_vid_start.mp4";
 import Contact from "./ContactMe";

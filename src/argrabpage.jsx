@@ -4,6 +4,7 @@ import './App.css';
 import './Projectinformation.css';
 import './bootstrap.min.css';
 import './fixedheader.css'
+import './popup.css';
 import Contact from "./ContactMe";
 import AnimatedPage from './AnimatedPage';
 import BackToProjects from './BackToProjects';

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './BoxBois.css';
 import './artrip.css';
-
+import './popup.css';
 import HomeButtonLink from "./HomeButton";
 
 import Carousel from "react-multi-carousel";

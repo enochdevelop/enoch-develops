@@ -15,9 +15,9 @@ function PaperFootballPage() {
 
     return (
         <AnimatedPage>
-        <div className="project_information_app">
+        <div className="project_information_app" >
             <BackToProjects />
-            <div className='header_paperfootball_bk_image'>
+            <div className='header_paperfootball_bk_image' >
             </div>
             <div className='header_bk'>
 
