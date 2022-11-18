@@ -13,7 +13,8 @@ function Contact() {
 
   function playPopup () {
     setTimedPopup(true);
-
+    form.current?.reset();
+    
     setTimeout(() => {
       setTimedPopup(false);
     }, 3000);
