@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import holographImage from "./assets/ProjectImagesResized/holographicuicompress.jpg";
 import hogwartsImage from "./assets/ProjectImagesResized/hogwartshousecompress.jpg";
 import portaldeviceImage from "./assets/ProjectImagesResized/portaldevicecompress.jpg";
-import pillowpunchImage from "./assets/ProjectImagesResized/pillowpunchcompress.jpg";
+import pillowpunchImage from "./assets/ProjectImagesResized/pillowpunch.jpg";
 import snowdayImage from "./assets/ProjectImagesResized/snowdaycompress.jpg";
 import argrabImage from "./assets/ProjectImagesResized/argrabcompress.jpg";
 import vrmmorpgImage from "./assets/ProjectImagesResized/vrmmorpgcompress.jpg";
