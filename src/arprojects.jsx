@@ -11,7 +11,7 @@ import hogwartsImage from "./assets/ProjectImagesResized/hogwartshousecompress.j
 import portaldeviceImage from "./assets/ProjectImagesResized/portaldevicecompress.jpg";
 import pillowpunchImage from "./assets/ProjectImagesResized/pillowpunch.png";
 import snowdayImage from "./assets/ProjectImagesResized/snowdaycompress.jpg";
-import argrabImage from "./assets/ProjectImagesResized/argrabcompress.jpg";
+import argrabImage from "./assets/ProjectImagesResized/argrab.png";
 import vrmmorpgImage from "./assets/ProjectImagesResized/vrmmorpgcompress.jpg";
 import spooksmashImage from "./assets/ProjectImagesResized/spookysmashcompress.jpg";
 import paperfootballImage from "./assets/ProjectImagesResized/paperfootballcompress.jpg";
