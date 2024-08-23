@@ -9,6 +9,7 @@ import Contact from "./ContactMe";
 import AnimatedPage from './AnimatedPage';
 import BackToProjects from './BackToProjects';
 import { Container } from 'react-bootstrap'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import ARGrabImage from "./assets/Pngs/grabdevicesphone.png";
 
@@ -16,7 +17,14 @@ function ARGrabPage() {
 
     return (
     <AnimatedPage>
+        <HelmetProvider>
         <div className="project_information_app">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>EnochDevelops</title>
+                <link rel="canonical" href="https://enochdevelops.com/" />
+                <meta name="description" content="EnochDevelops" />
+            </Helmet>
             <BackToProjects />
             <div className='header_argrab_bk_image'>
             </div>
@@ -65,6 +73,7 @@ function ARGrabPage() {
 
             <Contact />
         </div>
+        </HelmetProvider>
         </AnimatedPage>
     );
 }
