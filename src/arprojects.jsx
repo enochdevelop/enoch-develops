@@ -27,11 +27,10 @@ function ArProjects() {
         <HelmetProvider>
             <div className="project_app">
                 <Helmet>
-                    <meta name="viewport" content="width=device-width, initial-scale=1" />
-                    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-                    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"></link>
-
-                    <link rel="stylesheet" href="./"></link>
+                    <meta charSet="utf-8" />
+                    <title>EnochDevelops</title>
+                    <link rel="canonical" href="https://enochdevelops.com/" />
+                    <meta name="description" content="EnochDevelops" />
                 </Helmet>
 
                 <BackToMainPage />
