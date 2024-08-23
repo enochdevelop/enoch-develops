@@ -12,11 +12,20 @@ import { Container } from 'react-bootstrap'
 
 import SnowCannonImage from "./assets/Pngs/snowdevicesphone.png";
 
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 function SnowCannonPage() {
 
     return (
         <AnimatedPage>
+        <HelmetProvider>
         <div className="project_information_app">
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>EnochDevelops</title>
+            <link rel="canonical" href="https://enochdevelops.com/" />
+            <meta name="description" content="EnochDevelops" />
+        </Helmet>
             <BackToProjects />
             <div className='header_snowcannon_bk_image'>
             </div>
@@ -63,6 +72,7 @@ function SnowCannonPage() {
 
             <Contact />
         </div>
+        </HelmetProvider>
         </AnimatedPage>
     );
 }
