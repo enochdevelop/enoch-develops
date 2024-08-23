@@ -12,11 +12,20 @@ import BackToProjects from './BackToProjects';
 import AnimatedPage from './AnimatedPage';
 import { Container } from 'react-bootstrap'
 
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 function HologramUiPage() {
 
     return (
         <AnimatedPage>
+        <HelmetProvider>
         <div className="project_information_app">
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>EnochDevelops</title>
+            <link rel="canonical" href="https://enochdevelops.com/" />
+            <meta name="description" content="EnochDevelops" />
+        </Helmet>
             <BackToProjects />
             <div className='header_hologram_bk_image'>
             </div>
@@ -166,6 +175,7 @@ function HologramUiPage() {
 
             <Contact />
         </div>
+        </HelmetProvider>
         </AnimatedPage>
     );
 }
