@@ -74,7 +74,23 @@
     transition: var(--speed) ease;
   }
   
-  
+    h2{
+    width: 100%;
+    text-align: center;
+    font-size: 18px !important; 
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--primary-text-color);
+    line-height: 1.2rem;
+  }
+ 
+  h2 span{
+    font-size: 14px;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+  }
+
   h3{
     width: 100%;
     text-align: center;
