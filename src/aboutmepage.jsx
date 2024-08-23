@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './About.css';
 import './popup.css';
-import BackToMainPage from './BackToMainpage';
+import BackToProjects from './BackToProjects';
 import AnimatedPage from './AnimatedPage';
 import ProfilePic from "./assets/ProfileImages/personalpic2.png"
 
@@ -12,7 +12,7 @@ function AboutMePage() {
   return (
     <AnimatedPage>
     <div className="about_information_app">
-      <BackToMainPage />
+      <BackToProjects />
       <div className='about_header_container'>
         <div className="about_content_container">
           <div className="my_pic">
