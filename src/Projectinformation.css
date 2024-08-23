@@ -12,6 +12,15 @@
   max-width: 100%;
   max-height: 100%;
   
+   /* Hide scrollbar without taking up space */
+   scrollbar-width: none; /* Firefox */
+   -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
 }
 
 body {
