@@ -58,7 +58,6 @@ function MenuButton() {
                 
                 <ul>
                     <DropdownItem tag={Link} href="/" img={home} text={"Home"} />
-                    <DropdownItem tag={Link} href="/AboutMe" img={user} text={"About"} />
                     <DropdownItem tag={Link} href="/ArProjects" img={work} text={"Work"} />
                 </ul>
             </div>
