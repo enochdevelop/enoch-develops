@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './About.css';
 import './popup.css';
-import BackToProjects from './BackToProjects';
+import BackToProjects from './MenuButton';
 import AnimatedPage from './AnimatedPage';
 import ProfilePic from "./assets/ProfileImages/personalpic2.png"
 
