@@ -8,50 +8,62 @@ import work from './assets/img/edit.png';
 import home from './assets/img/home.png';
 import logo from './assets/EnochDevelopsLogo.png';
 
-function MenuButton() {
-
+function BackToProjects() {
+ 
     const [open, setOpen] = useState(false);
-
     let menuRef = useRef();
 
     useEffect(() => {
-        let handler = (e) => {
-            if(!menuRef.current.contains(e.target)){
+        // Open the menu when mouse enters the menu container
+        let handleMouseEnter = () => setOpen(true);
+
+        // Close the menu when mouse leaves the entire menu area
+        let handleMouseLeave = (e) => {
+            if (!menuRef.current.contains(e.relatedTarget)) {
                 setOpen(false);
             }
         };
-        document.addEventListener("mousedown", handler);
 
-        return() =>{
-            document.removeEventListener("mousedown", handler);
+        let menuElement = menuRef.current;
+        if (menuElement) {
+            menuElement.addEventListener("mouseenter", handleMouseEnter);
+            menuElement.addEventListener("mouseleave", handleMouseLeave);
         }
-    });
 
-    return(
+        return () => {
+            if (menuElement) {
+                menuElement.removeEventListener("mouseenter", handleMouseEnter);
+                menuElement.removeEventListener("mouseleave", handleMouseLeave);
+            }
+        };
+    }, []);
+
+    return (
         <div className="menu_container" ref={menuRef}>
-            <div className='menu_trigger' onClick={()=>{setOpen(!open)}}>
+            <div className='menu_trigger'>
                 <div className='logo_icon'>
-                 <label>  {/* <input type="checkbox" name =""  className='input_section'/> */}
-                    <div className="bar">
-                        <span className="top"></span>
-                        <span className="middle"></span>
-                        <span className="bottom"></span>
-                    </div>
-                    </label> 
+                    <label>
+                        <div className="bar">
+                            <span className="top"></span>
+                            <span className="middle"></span>
+                            <span className="bottom"></span>
+                        </div>
+                    </label>
                 </div>
             </div>
 
-            <div className={`dropdown_menu ${open? 'active' : 'inactive'}`}>
-                <h2>EnochDevelops<br/><span>menu</span></h2>
+            <div className={`dropdown_menu ${open ? 'active' : 'inactive'}`}>
+                <div className='menu_title'>
+                    <h2>EnochDevelops<br/><span>menu</span></h2>
+                </div>
+                
                 <ul>
-                    <DropdownItem tag={Link} href="/" img = {home} text = {"Home"}/>
-                    <DropdownItem tag={Link} href="/AboutMe" img = {user} text = {"About"}/>
-                    <DropdownItem tag={Link} href="/ArProjects" img = {work} text = {"Work"}/>
+                    <DropdownItem tag={Link} href="/" img={home} text={"Home"} />
+                    <DropdownItem tag={Link} href="/ArProjects" img={work} text={"Work"} />
                 </ul>
             </div>
         </div>
-    )
-    
+    );
 }
 
 function DropdownItem(props){
@@ -63,4 +75,4 @@ function DropdownItem(props){
     );
 }
 
-export default MenuButton;
+export default BackToProjects;
