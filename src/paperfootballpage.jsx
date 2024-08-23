@@ -11,11 +11,20 @@ import { Container } from 'react-bootstrap'
 
 import PaperFootballImage from "./assets/Pngs/footballdevicesphone.png";
 
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 function PaperFootballPage() {
 
     return (
         <AnimatedPage>
+        <HelmetProvider>
         <div className="project_information_app" >
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>EnochDevelops</title>
+            <link rel="canonical" href="https://enochdevelops.com/" />
+            <meta name="description" content="EnochDevelops" />
+        </Helmet>
             <BackToProjects />
             <div className='header_paperfootball_bk_image' >
             </div>
@@ -66,6 +75,7 @@ function PaperFootballPage() {
 
             <Contact />
         </div>
+        </HelmetProvider>
         </AnimatedPage>
     );
 }
