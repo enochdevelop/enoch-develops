@@ -12,11 +12,20 @@ import { Container } from 'react-bootstrap'
 
 import PortalImage from "./assets/Pngs/portaldevicesphone.png";
 
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 function PortalDevicePage() {
 
     return (
         <AnimatedPage>
+        <HelmetProvider>
         <div className="project_information_app">
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>EnochDevelops</title>
+            <link rel="canonical" href="https://enochdevelops.com/" />
+            <meta name="description" content="EnochDevelops" />
+        </Helmet>
             <BackToProjects />
             <div className='header_portaldevice_bk_image'>
             </div>
@@ -105,6 +114,7 @@ function PortalDevicePage() {
 
             <Contact />
         </div>
+        </HelmetProvider>
         </AnimatedPage>
     );
 }
