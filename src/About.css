@@ -28,9 +28,9 @@
     margin-bottom: 15%; 
 
     
-        /* Hide scrollbar without taking up space */
-        scrollbar-width: none; /* Firefox */
-        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    /* Hide scrollbar without taking up space */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
   }
   
   ::-webkit-scrollbar {
