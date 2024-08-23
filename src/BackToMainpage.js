@@ -42,7 +42,7 @@ function MenuButton() {
             </div>
 
             <div className={`dropdown_menu ${open? 'active' : 'inactive'}`}>
-                <h3>EnochDevelops<br/><span>menu</span></h3>
+                <h2>EnochDevelops<br/><span>menu</span></h2>
                 <ul>
                     <DropdownItem tag={Link} href="/" img = {home} text = {"Home"}/>
                     <DropdownItem tag={Link} href="/AboutMe" img = {user} text = {"About"}/>
