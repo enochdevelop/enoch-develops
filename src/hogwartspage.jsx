@@ -12,11 +12,21 @@ import { Container } from 'react-bootstrap'
 
 import HogwartsImage from "./assets/Pngs/hogwartsdevicesphone.png";
 
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 function HogwartsPage() {
 
     return (
         <AnimatedPage>
+        <HelmetProvider>
+    
         <div className="project_information_app">
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>EnochDevelops</title>
+            <link rel="canonical" href="https://enochdevelops.com/" />
+            <meta name="description" content="EnochDevelops" />
+        </Helmet>
             <BackToProjects />
             <div className='header_hogwarts_bk_image'>
             </div>
@@ -66,6 +76,7 @@ function HogwartsPage() {
 
             <Contact />
         </div>
+        </HelmetProvider>
         </AnimatedPage>
     );
 }
